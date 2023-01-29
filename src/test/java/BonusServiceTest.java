@@ -1,7 +1,12 @@
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
+import org.junit.jupiter.params.provider.CsvSource;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BonusServiceTest {
-
+    @ParameterizedTest
+    @CsvFileSource(files="src/test/resources/data.csv")
     @org.junit.jupiter.api.Test
     void shouldCalculateForRegisteredAndUnderBonus() {
         BonusService service = new BonusService();
