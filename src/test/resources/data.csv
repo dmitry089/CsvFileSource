@@ -1,4 +1,4 @@
-Registered And  Under  Bonus        ,30           ,1000             , true
-Registered And  Over  Bonus         ,500          ,1_000_000        , true
-Unregistered And  Under  Bonus      ,10           ,1000             ,false
-Unregistered And  Over  Bonus       ,500          ,1_000_500        ,false
+Registered And  Under  Bonus,          30,           1000,               true
+Registered And  Over  Bonus,           500,          1_000_000,          true
+Unregistered And  Under  Bonus,        10,           1000,               false
+Unregistered And  Over  Bonus,         500,          1_000_500,          false
